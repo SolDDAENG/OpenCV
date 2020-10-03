@@ -4,7 +4,7 @@
 # 화소 처리(Point processing)
 # • 입력 영상의 특정 좌표 픽셀 값을 변경하여 출력 영상의 해당 좌표 픽셀 값으로 설정하는 연산
 # dst(x, y) = f(src(x, y))  # f => 변환 함수(transfer function)  # src : source image(입력 이미지), dst : destination image(출력 이미지)
-# • 결과 양상의 픽셀 값이 정해진 범위(e.g. 그레이스케일)에 있어야 함.
+# • 결과 영상의 픽셀 값이 정해진 범위(e.g. 그레이스케일)에 있어야 함.
 # • 반전, 밝기 조절, 명암비 조절 등
 
 # 밝기 조절이란?
